@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.tealText {
+    color: rgb(212, 135, 243);
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.btnTeal {
+    background-color: rgb(129, 205, 240);
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.heading {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 40px 0;
+}
+
+header {
+    display: flex;
+}
+
+.halfWidth {
+    width: 45%;
+    margin-right: 5%;
+}
+
+.heroSection {
+    margin: 90px 10% 50px 0;
+}
+
+.heroText {
+    border-left: 5px solid rgb(129, 140, 245);
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+
+.heroText h1 {
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 100;
+}
+
+.personImg {
+    margin-left: auto;
+}
+
+.personImg img {
+    width: 330px;
+    height: 400px;
+}
+
+
+/* MISSION  */
+
+#mission {
+    margin-bottom: 30px;
+}
+
+#mission h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.cards {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 30%;
+    height: 350px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.cards img {
+    width: 140px;
+    height: 140px;
+}
+
+.cards h2 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.card1 {
+    background-color: #49d5f5a6;
+    /* margin-left: 3.3%; */
+    margin-right: 4%;
+}
+
+.card2 {
+    background-color: #fcecc3;
+    margin-right: 4%;
+}
+
+.card3 {
+    background-color: #ff59597c;
+}
+
+
+/* DEVELOP */
+
+#developBanner,
+#globalBanner {
+    background: url(./img/shape-1.png) no-repeat left;
+    background-size: 227px;
+}
+
+#develop,
+#global {
+    display: flex;
+    /* margin-top: 60px; */
+    margin: 80px auto 0;
+}
+
+.developImg {
+    width: 35%;
+    margin-right: 2%;
+}
+
+.developImg img,
+.globalImg img {
+    width: 400px;
+    height: 400px;
+}
+
+.developText,
+.globalText {
+    width: 60%;
+}
+
+
+/* GLOBAL */
+
+#globalBanner {
+    background-position: right;
+}
+
+.globalText {
+    margin-right: 2%;
+}
+
+.globalText p {
+    width: 700px;
+}
+
+.globalImg {
+    width: 35%;
+    margin-left: 5%;
+}
+
+
+/* CONTACT */
+
+#contact {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 50px 0;  */
+}
+
+#contact p {
+    padding: 20px 0;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/* FOOTER  */
+
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    color: white;
+    padding: 5px 0 30px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}
